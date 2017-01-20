@@ -1,0 +1,1 @@
+./execute.sh Airtel QA Android TransferRequest true SamsungS5

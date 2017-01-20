@@ -1,0 +1,26 @@
+{
+  "capabilities":
+    [
+      {
+        "applicationName": "iPhone 5",
+        "browserName": "iPhone 5",
+        "platform": "Mac",
+        "platformVersion": "9.3",
+        "udid": "c51aaa879130eb325757ba91effb3e62b4e62835"
+      }
+    ],
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":10800,
+    "url":"http://0.0.0.0:4729/wd/hub",
+    "host": "0.0.0.0",
+    "port": 4729,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4445,
+    "hubHost": "localhost"
+  }
+}
