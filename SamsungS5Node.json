@@ -1,0 +1,27 @@
+
+{
+"capabilities":
+[
+{
+"applicationName":"SamsungS5",
+"browserName":"SamsungS5",	
+"platform": "Android",
+"platformVersion": "5.0",
+"maxInstances":"2"
+}
+],
+"configuration":
+{
+"cleanUpCycle":2000,
+"timeout":10800,
+"url":"http://localhost:4723/wd/hub",
+"host":"localhost",
+"port":4723,
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"maxSession":1,
+"register":true,
+"registerCycle":5000,
+"hubPort":4445,
+"hubHost":"localhost"
+}
+}
